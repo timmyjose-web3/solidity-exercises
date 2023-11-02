@@ -2,13 +2,18 @@
 pragma solidity ^0.8.13;
 
 contract Deployer {
-    /*
-        This exercise assumes you know how to deploy a contract.
-        1. Create an empty contract.
-        2. Deploy the contract and return the address in `deployContract` function.
-    */
+  /*
+     This exercise assumes you know how to deploy a contract.
+     1. Create an empty contract.
+     2. Deploy the contract and return the address in `deployContract` function.
+   */
 
-    function deployContract() public view returns (address) {
-        // your code here
-    }
+  function deployContract() public returns (address) {
+    // your code here
+    Empty empty = new Empty();
+    return address(empty);
+  }
+}
+
+contract Empty {
 }

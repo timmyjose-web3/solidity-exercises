@@ -1,6 +1,8 @@
 # Solidity Exercises
 
-My solutions to the [Solidity exercises](https://github.com/rareSkills/solidity-exercises).
+My solutions to the [Solidity exercises](https://www.rareskills.io/learn-solidity). Official repository: https://github.com/rareSkills/solidity-exercises.
+
+In addition, this repository contains extra exercises conducted on remix.ethereum.org as well as sundry other practice problems.
 
 
 ## Installation
@@ -30,4 +32,10 @@ Save your changes, then, in the same directory, test it with
 
 ```
 forge test -vvv
+```
+
+To check all tests, run the `test-all.sh` script in the project root:
+
+```bash
+  $ ./test-all.sh
 ```
